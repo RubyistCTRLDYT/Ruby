@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .divcss5{border:1px solid #F00} 
+  </style>
+  <head>
+    <title>Blog</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <center>
+    <%= yield %>
+  </body>
+</html>
